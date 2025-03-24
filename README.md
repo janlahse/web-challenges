@@ -13,6 +13,5 @@ Meine freie Zeit verbringe ich am liebsten so:
   <li>Vögel füttern</li>
 </ul>
 
-<div style="width: 100px; height: 120px;">
-<img src="https://tenor.com/de/view/crow-sassy-gif-27410600.gif" style="width: 100%; height: 100%; object-fit: cover;" alt="Running crow GIF">
-</div>
+
+<img src="https://tenor.com/de/view/crow-sassy-gif-27410600.gif" style="width: 100px; height: auto;" alt="Running crow GIF">
