@@ -54,6 +54,13 @@ h2 {
 
 section {
   /* Your solution */
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-left: 5px solid orange;
+}
+.favourites {
+  border-left: 5px solid gold;
 }
 
 /* ------- Headings Part 2 ------- */
@@ -68,21 +75,27 @@ section {
 
 .subtitle {
   /* Your solution */
+  border-left: 3px solid gold;
+  border-right: 3px solid gold;
+  padding: 0 3px 0;
+  display: inline;
 }
-
+.favourites .subtitle {
+  border-color: orange;
+}
 /* ------- List ------- */
 
 /* Task 7: Finally, let's style our list with of favorite Pokémon. Which selector do we need? Also, add values for padding. */
 
 /* Add selector */
- {
+ul {
   list-style: "🧡";
-  padding-left: /* Add value */ ;
+  padding-left: 50px;
 }
 
 /* Add selector */
- {
-  padding-left: /* Add value */ ;
+li {
+  padding-left: 10px; /* Add value */
 }
 
 /* ------- The End -------- */
