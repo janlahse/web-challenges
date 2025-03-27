@@ -22,7 +22,10 @@ body {
 /* Task 3: Setting the line height to 1.5 is good for texts, for accessibility reasons, but it seems too much for headings. Let's change this by giving our headings a line height of 1.2. */
 
 /* Your solution */
-
+h1,
+h2 {
+  line-height: 1.2;
+}
 /* Task 4: Now we want to give our h1 element more styles to shine! Add the following styles by writing the correct declarations inside the next CSS rule:
 
 - Change the background color to white
@@ -33,6 +36,10 @@ body {
 
 .title {
   /* Your solution */
+  background-color: white;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
 }
 
 /* ------- Sections ------- */
