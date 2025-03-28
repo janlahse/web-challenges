@@ -21,7 +21,6 @@ h2 {
 
 .profile {
   display: flex;
-  flex-direction: column;
 }
 
 .profile__image {
@@ -30,7 +29,12 @@ h2 {
   aspect-ratio: 1 / 1;
   border: solid #3f0097 1px;
   max-width: 50%;
-  align-self: center;
+}
+
+.profile__image,
+p,
+h2 {
+  flex: 1 1;
 }
 
 .tech-stack__list {
