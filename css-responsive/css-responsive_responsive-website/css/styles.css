@@ -240,10 +240,51 @@ CSS based on conditions such as viewport width, etc. */
 
 /* Media Query Tablet */
 /* --- */
-/* Replace this comment with your media query. */
+@media (min-width: 600px) {
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-text {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+  .navbar {
+    top: 144px;
+  }
+  .main-content {
+    margin-top: 210px;
+  }
+  .card-section {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card-section article,
+  .card-section p {
+    width: 45vw;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+  }
+  .main-footer {
+    flex-direction: column;
+  }
+  .footer-nav,
+  .contact-details {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+  }
+}
 /* --- */
 
 /* Media Query Desktop */
 /* --- */
-/* Replace this comment with your media query. */
+@media (min-width: 1200px) {
+}
 /* --- */
