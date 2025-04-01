@@ -241,23 +241,32 @@ CSS based on conditions such as viewport width, etc. */
 /* Media Query Tablet */
 /* --- */
 @media (min-width: 600px) {
+  /*READ ME */
+  /*I accidentally forgot to check the wireframes so I implemented responsive
+  features that were not asked for. To see the website as it was intended in the
+  challenge just comment out the classes marked as optional. */
   .main-header {
+    /*optional*/
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .header-text {
+    /*optional*/
     font-size: 2rem;
     padding-top: 10px;
     padding-bottom: 0;
     padding-right: 20px;
   }
   .navbar {
+    /*optional*/
     top: 144px;
   }
   .main-content {
+    /*optional*/
     margin-top: 210px;
   }
+
   .card-section {
     align-items: flex-start;
     justify-content: center;
@@ -272,10 +281,12 @@ CSS based on conditions such as viewport width, etc. */
     font-size: 1.2rem;
   }
   .main-footer {
+    /*optional*/
     flex-direction: column;
   }
-  .footer-nav,
+  .footer-nav, /*optional*/
   .contact-details {
+    /*optional*/
     flex-direction: row;
     gap: 15px;
     justify-content: center;
@@ -286,5 +297,9 @@ CSS based on conditions such as viewport width, etc. */
 /* Media Query Desktop */
 /* --- */
 @media (min-width: 1200px) {
+  article.--forest {
+    width: 100%;
+    height: 540px;
+  }
 }
 /* --- */
