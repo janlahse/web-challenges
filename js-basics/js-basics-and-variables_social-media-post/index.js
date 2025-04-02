@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const title = "Post Titel";
+const content = "Textitext Social Media Post Text";
+let likes = 10;
+const user = "Jan";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(title);
+console.log(content);
+console.log(likes);
+console.log(user);
+console.log(isReported);
+likes++;
+console.log(likes);
 // --^-- write your code here --^--
