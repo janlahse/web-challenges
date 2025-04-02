@@ -18,5 +18,13 @@ Hint: You can combine text and variables using the `+` operator.
 */
 
 const currentAge = Number(process.argv[2]); // This takes the `<age>` entered in the command `node index.js <age>`.
+const lifeDays = currentAge * 365;
+const remainingDays = (80 - currentAge) * 365;
+const percLife = (currentAge / 80) * 100;
+const sleepDays = lifeDays / 3;
 
 console.log("Your current age is: " + currentAge);
+console.log("You've been alive for " + lifeDays + " days");
+console.log("You have an estimated " + remainingDays + " days left to live");
+console.log("You've spend an estimated " + percLife + "% of your lifetime");
+console.log("You've been asleep for about " + sleepDays + " days");
