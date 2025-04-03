@@ -12,7 +12,13 @@ if (receivedPassword == SUPER_SECRET_PASSWORD) {
 }
 
 // Part 2: Even / Odd
-const number = 6;
+const number = 10;
+
+if (number % 2 === 1) {
+  console.log("The number is uneven.");
+} else {
+  console.log("The number is even.");
+}
 
 // Part 3: Hotdogs
 const numberOfHotdogs = 42;
