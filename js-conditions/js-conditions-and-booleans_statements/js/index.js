@@ -12,7 +12,7 @@ if (receivedPassword == SUPER_SECRET_PASSWORD) {
 }
 
 // Part 2: Even / Odd
-const number = 10;
+const number = 7;
 
 if (number % 2 === 1) {
   console.log("The number is uneven.");
@@ -21,7 +21,33 @@ if (number % 2 === 1) {
 }
 
 // Part 3: Hotdogs
-const numberOfHotdogs = 42;
+const numberOfHotdogs = 1000000;
+
+if (numberOfHotdogs < 5) {
+  let priceSingle = 2;
+  let priceTotal = priceSingle * numberOfHotdogs;
+  console.log(
+    "Einzelpreis: " + priceSingle + "$, Gesamtpreis: " + priceTotal + "$"
+  );
+} else if (numberOfHotdogs < 100) {
+  let priceSingle = 1.5;
+  let priceTotal = priceSingle * numberOfHotdogs;
+  console.log(
+    "Einzelpreis: " + priceSingle + "$, Gesamtpreis: " + priceTotal + "$"
+  );
+} else if (numberOfHotdogs < 1000000) {
+  let priceSingle = 1;
+  let priceTotal = priceSingle * numberOfHotdogs;
+  console.log(
+    "Einzelpreis: " + priceSingle + "$, Gesamtpreis: " + priceTotal + "$"
+  );
+} else {
+  let priceSingle = 0.1;
+  let priceTotal = priceSingle * numberOfHotdogs;
+  console.log(
+    "Einzelpreis: " + priceSingle + "$, Gesamtpreis: " + priceTotal + "$"
+  );
+}
 
 // Part 4: Daytime
 const currentHour = 12;
