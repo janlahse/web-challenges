@@ -36,7 +36,19 @@ function getGreeting() {
 }
 
 function getDayColor() {
-  // Code here
+  const day = new Date().getDay();
+  switch (day) {
+    case 1:
+      return "darkgray";
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+      return "lightblue";
+    case 6:
+    case 0:
+      return "hotpink";
+  }
 }
 
 display.textContent = getGreeting();
