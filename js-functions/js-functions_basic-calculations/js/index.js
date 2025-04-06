@@ -12,22 +12,32 @@ Each function should return the result of its respective calculation:
 
 function add(a, b) {
   // Implement the addition logic here
+  let result = a + b;
+  return result;
 }
 
 function subtract(a, b) {
   // Implement the subtraction logic here
+  let result = a - b;
+  return result;
 }
 
 function multiply(a, b) {
   // Implement the multiplication logic here
+  let result = a * b;
+  return result;
 }
 
 function divide(a, b) {
   // Implement the division logic here
+  let result = a / b;
+  return result;
 }
 
 function remainder(a, b) {
   // Implement the remainder (modulo) logic here
+  let result = a % b;
+  return result;
 }
 
 /*
