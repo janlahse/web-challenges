@@ -9,5 +9,37 @@
     <title>Personal Profile Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Create your Personal Profile</h1>
+    <form>
+      <p>We want to get to know you! Please enter your personal information.</p>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fName">First Name: </label>
+        <input type="text" id="fName" />
+        <label for="lName">Last Name: </label>
+        <input type="text" id="lName" />
+        <label for="bDay">Your Birthday: </label>
+        <input type="date" id="bDay" />
+      </fieldset>
+      <p>
+        Can you tell us a little bit more? We want to annoy you witch unwanted
+        ads.
+      </p>
+      <fieldset>
+        <legend>Further Information</legend>
+        <label for="favColor">Favourite Color: </label>
+        <input type="color" id="favColor" value="#E5430F" />
+        <label for="favPet">What's your favourite Pet?</label>
+        <select id="favPet">
+          <option value="">--Choose an Option--</option>
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="tapir">Tapir</option>
+          <option value="plant">Plant</option>
+        </select>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
