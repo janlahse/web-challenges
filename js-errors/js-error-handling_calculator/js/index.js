@@ -2,6 +2,7 @@ console.clear();
 
 const form = document.querySelector("form");
 const output = form.querySelector("output");
+const errorText = document.querySelector("[data-js=error-text]");
 
 const operations = {
   add: (a, b) => a + b,
@@ -20,5 +21,9 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number(event.target.firstNumber.value);
   const secondNumber = Number(event.target.secondNumber.value);
   const operation = event.target.operation.value;
-  output.innerText = operations[operation](firstNumber, secondNumber);
+  try {
+    output.innerText = operations[operation](firstNumber, secondNumber);
+  } catch (error) {
+    errorText.innerText = "Please don't divide by zero!";
+  }
 });
