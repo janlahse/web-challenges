@@ -217,13 +217,6 @@ const matrix = [
   ],
 ];
 
-const matrix2 = [
-  [1, 2, 1, 2],
-  [1, 2, 1, 2],
-  [1, 2, 1, 2],
-  [1, 2, 1, 100],
-];
-
 function greatestProduct(matrix) {
   let greatest = 0;
   let current = 0;
@@ -249,7 +242,6 @@ function greatestProduct(matrix) {
   }
   return greatest;
 }
-console.log(greatestProduct(matrix2));
 
 /*
     greatestProduct = 0;
