@@ -1,6 +1,5 @@
 import { useState } from "react";
 import ColoredNumber from "./ColoredNumber";
-//setCounter bei onClick
 
 export default function Counter() {
   const [counter, setCounter] = useState(0);
