@@ -1,6 +1,6 @@
+import useLocalStorageState from "use-local-storage-state";
 import FontSelector from "./components/FontSelector";
 import Note from "./components/Note";
-import useLocalStorageState from "use-local-storage-state";
 import "./styles.css";
 
 export default function App() {
