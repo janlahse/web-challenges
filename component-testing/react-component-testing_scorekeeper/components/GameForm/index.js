@@ -21,6 +21,7 @@ export default function GameForm({ onCreateGame }) {
         .split(",")
         .map((name) => name.trim()),
     });
+
     form.reset();
     router.push("/game");
   }
