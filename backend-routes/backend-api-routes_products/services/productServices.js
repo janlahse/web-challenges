@@ -44,7 +44,6 @@ const products = [
     name: "Guppy",
     description: "Small but nice",
     price: 5,
-
     currency: "€",
     category: "Freshwater",
   },
