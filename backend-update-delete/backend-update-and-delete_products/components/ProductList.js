@@ -38,4 +38,5 @@ const StyledList = styled.ul`
   gap: 1rem;
   justify-items: center;
   padding: 0;
+  color: var(--color-grey);
 `;

@@ -32,13 +32,12 @@ export default function HomePage() {
   return (
     <>
       <Heading>
-        <span role="img" aria-label="A fish">
+        <StyledSpan role="img" aria-label="A fish">
           🐠
-        </span>
+        </StyledSpan>
         Fish Shop
       </Heading>
       <ProductForm onSubmit={handleAddProduct} />
-      <hr />
       <ProductList />
     </>
   );
@@ -47,4 +46,13 @@ export default function HomePage() {
 const Heading = styled.h1`
   text-align: center;
   color: var(--color-nemo);
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid var(--color-grey);
+  margin-bottom: 0;
+  font-family: georgia;
+  font-size: 2.5rem;
+`;
+
+const StyledSpan = styled.span`
+  margin-right: 8px;
 `;

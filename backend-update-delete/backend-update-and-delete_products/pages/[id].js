@@ -47,7 +47,7 @@ export default function Product() {
 
   return (
     <ProductCard>
-      <h2>{data.name}</h2>
+      <StyledHeading>{data.name}</StyledHeading>
       <p>Description: {data.description}</p>
       <p>
         Price: {data.price} {data.currency}
@@ -74,16 +74,20 @@ const ProductCard = styled.article`
   box-shadow: 0px 1px 5px -2px var(--color-granite);
 `;
 
+const StyledHeading = styled.h2`
+  color: var(--color-nemo);
+`;
+
 const Button = styled.button`
   text-decoration: none;
   display: inline-block;
   color: inherit;
-  border: none;
-  background: var(--color-water-10);
-  font-size: larger;
-  padding: 0.5rem 1rem;
-  box-shadow: 0px 1px 5px -2px var(--color-granite);
-  margin-left: 5px;
+  background: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  border: 2px solid var(--color-nemo);
+  border-radius: 3px;
+  margin-left: 8px;
 
   &:hover {
     cursor: pointer;

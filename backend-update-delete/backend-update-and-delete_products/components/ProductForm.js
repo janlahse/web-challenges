@@ -36,11 +36,16 @@ export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
   gap: 5px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid var(--color-grey);
+  margin-top: 0;
+  color: var(--color-grey);
 `;
 
 export const StyledHeading = styled.h2`
   text-align: center;
   color: var(--color-nemo);
+  margin-bottom: 10px;
 `;
 
 export const StyledLabel = styled.label`
